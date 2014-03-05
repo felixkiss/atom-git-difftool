@@ -20,3 +20,5 @@ Edit your `~/.gitconfig` or read http://git-scm.com/docs/git-difftool
 ## Screenshot
 
 This is how it looks when using Kaleidoscope.app as the git-difftool.
+
+![atom-git-difftool-kaleidoscope](https://f.cloud.github.com/assets/256075/2334850/986ae8d0-a47d-11e3-9d6e-a8684b61db7e.gif)
