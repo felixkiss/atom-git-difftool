@@ -4,7 +4,8 @@
   "version": "0.1.0",
   "description": "Opens the current project in the diff tool you have configured in your .gitconfig",
   "activationEvents": [
-    "git-difftool:open"
+    "git-difftool:diff-project",
+    "git-difftool:diff-file"
   ],
   "repository": "https://github.com/felixkiss/atom-git-difftool",
   "license": "MIT",
