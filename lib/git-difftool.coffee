@@ -9,7 +9,7 @@ module.exports =
     @openDifftool('')
 
   openDifftoolForFile: ->
-    currentFile = atom.workspace.getActiveEditor().buffer?.file?.path
+    currentFile = atom.workspace.getActiveEditor()?.buffer?.file?.path
     @openDifftool(currentFile) if currentFile?
 
   openDifftool: (path) ->
