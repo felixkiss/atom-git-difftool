@@ -11,8 +11,12 @@ Run `Git Difftool: Diff File` from the Command Palette or use <kbd>⌥⌃D</kbd>
 diff the currently open file.
 
 Run `Git Difftool: Diff Project` from the Command Palette or use
-<kbd>⌥⌃⇧D</kbd> to diff the whole project.
+<kbd>⌃⇧D</kbd> to diff the whole project.
 
 ## Configuration
 
 Edit your `~/.gitconfig` or read http://git-scm.com/docs/git-difftool
+
+## Screenshot
+
+This is how it looks when using Kaleidoscope.app as the git-difftool.
