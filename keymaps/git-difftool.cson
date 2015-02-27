@@ -7,6 +7,6 @@
 
 # For more detailed documentation see
 # https://atom.io/docs/latest/advanced/keymaps
-'.platform-darwin, .workspace':
+'.platform-darwin, atom-workspace':
   'ctrl-shift-d': 'git-difftool:diff-project'
   'alt-ctrl-d': 'git-difftool:diff-file'
