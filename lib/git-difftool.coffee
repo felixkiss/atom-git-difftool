@@ -2,8 +2,10 @@ exec = require("child_process").exec
 
 module.exports =
   activate: (state) ->
-    atom.workspaceView.command "git-difftool:diff-project", => @openDifftoolForProject()
-    atom.workspaceView.command "git-difftool:diff-file", => @openDifftoolForFile()
+    atom.commands.add 'atom-workspace', "git-difftool:diff-project", =>
+      @openDifftoolForProject()
+    atom.commands.add 'atom-workspace', "git-difftool:diff-file", =>
+      @openDifftoolForFile()
 
   openDifftoolForProject: ->
     @openDifftool('')
