@@ -3,7 +3,7 @@
   "main": "./lib/git-difftool",
   "version": "0.2.4",
   "description": "Opens the current project in the diff tool you have configured in your .gitconfig",
-  "activationCommands": [
+  "activationEvents": [
     "git-difftool:diff-project",
     "git-difftool:diff-file"
   ],
