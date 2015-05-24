@@ -3,10 +3,12 @@
   "main": "./lib/git-difftool",
   "version": "0.2.5",
   "description": "Opens the current project in the diff tool you have configured in your .gitconfig",
-  "activationEvents": [
-    "git-difftool:diff-project",
-    "git-difftool:diff-file"
-  ],
+  "activationCommands": {
+    "atom-workspace": [
+      "git-difftool:diff-project",
+      "git-difftool:diff-file"
+    ]
+  },
   "repository": "https://github.com/felixkiss/atom-git-difftool",
   "license": "MIT",
   "engines": {

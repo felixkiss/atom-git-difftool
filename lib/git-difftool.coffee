@@ -11,9 +11,9 @@ module.exports =
     @openDifftool('')
 
   openDifftoolForFile: ->
-    currentFile = atom.workspace.getActiveEditor()?.buffer?.file?.path
+    currentFile = atom.workspace.getActiveTextEditor()?.buffer?.file?.path
     @openDifftool(currentFile) if currentFile?
 
   openDifftool: (path) ->
-    base = atom.project.getPath()
+    base = atom.project.getPaths()[0]
     exec "cd #{base} && git difftool --no-prompt #{path}" if base?
