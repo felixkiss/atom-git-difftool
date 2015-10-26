@@ -16,4 +16,4 @@ module.exports =
 
   openDifftool: (path) ->
     base = atom.project.getPaths()[0]
-    exec "cd #{base} && git difftool --no-prompt #{path}" if base?
+    exec "cd #{base} && git difftool --gui --no-prompt #{path}" if base?
